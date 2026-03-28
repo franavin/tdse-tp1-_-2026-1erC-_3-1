@@ -8,6 +8,8 @@ El software de gestión inteligente y flexible, tiene la capacidad de integrarse
 Compatible con sistema de boletos, sistema de tarjetas, sistema de estacionamiento sin boletos: LPR o ANPR, sistema de estacionamiento RID de largo alcance, sistema de estacionamiento de automóviles en la calle, etc.
 
 
+
+
 -Automated Parking System
 
 
