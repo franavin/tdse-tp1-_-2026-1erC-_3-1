@@ -6,5 +6,3 @@
  | :----- | :---------------------  | :------: | :-------: | 
  | 88627| Nishihara, Leonardo |          | Semana 04 | 
  | 106747 | Avincetto, Franco Joaquín |
-
-asdfasd
