@@ -40,5 +40,5 @@ Salida: Eventos dirigidos al Actuador.
 **Modelo de actuator (actuar)**
 Objetivo: Traducir las órdenes lógicas del sistema en acciones físicas.  
 Entrada: Eventos provenientes del sistema.  
-Salida: Cambio de estado en los periféricos de salida.
+Salida: Cambio de estado en los periféricos de salida (Display, Printer, Barrier y Sever).
 
