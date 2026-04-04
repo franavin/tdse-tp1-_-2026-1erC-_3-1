@@ -14,7 +14,7 @@ Cuando el usuario decide retirarse, escanea el ticket que le dieron anteriorment
 
 **-Parking Ticket Dispenser Machine (Entry)**
 
-
+La máquina expedidora de tickets de estacionamiento suele estar ubicada en la entrada del parqueadero. Esta emite un ticket impreso cada vez que un radar detecta el vehículo y el usuario temporal presiona el botón de solicitud. El ticket consiste generalmente en un código de barras o código QR único que incluye la fecha y la hora de entrada. El panel de la máquina cuenta con un lector de tarjetas mensuales especialmente diseñado para usuarios fijos; con tan solo acercar la tarjeta mensual, la barrera se levantará de forma automática.
 
 ***************************************************************************************************************************************************************************************************************************
 **IMPLEMENTACION Parking Ticket Dispenser Machine (Entry)**
