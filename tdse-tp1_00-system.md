@@ -1,4 +1,4 @@
-## Parking Ticket Dispenser Machine (Entry) - Módulo de Sensores
+## Parking Ticket Dispenser Machine (Entry) - Módulo de Sistema
 **-Módulo de código C:** Temporizado  
 **-Período de escrutinio:** 1 ms
 ***************************************************************************************************************************************************************************************************************************
