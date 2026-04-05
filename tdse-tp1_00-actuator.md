@@ -5,22 +5,31 @@
 ## 1. Descripción del Modelo
 
 ***************************************************************************************************************************************************************************************************************************
-## 2. Eventos
+## 2. Estados
+* **`ST_ACT_IDLE`**: 
+* **`ST_ACT_MOVING`**:
 
-* **`EV_BTN_XX_UP`**: 
-* **`EV_BTN_XX_DOWN`**:
+## 3. Eventos
+* **`EV_ACT_OPEN`**:
+* **`EV_ACT_CLOSE`**:
+* **`EV_SYS_READY`**:
 
-## 3. Variables de Control
+## 4. Variables de Control
+* **`tick`**: Variable temporizadora de cuenta regresiva.
+* **`DEL_LED_BARRERA_MAX`**: Es una constante que define el tiempo en que la barrera tarda en abrir/cerrar.
 
-
-
-## 4. Acciones
+## 5. Acciones
 
 ### Acciones Internas
-
-
+* **`tick = DEL_BTN_BARRERA_MAX`**: Inicializa la variable de control.
+* **`tick--`**: Decrementa la variable de control.
+* **`LED_ON`**:
+* **`LED_OFF`**:  
 
 ### Acciones Externas
+
+* **`raise EV_SYS_READY`**: Emite la señal al sistema
+* 
 ### Actuator Statechart - State Transition Table
 
 | Current State | Event | [Guard] | Next State | Actions |
