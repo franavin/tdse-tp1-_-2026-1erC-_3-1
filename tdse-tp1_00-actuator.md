@@ -7,7 +7,9 @@
 ***************************************************************************************************************************************************************************************************************************
 ## 2. Estados
 * **`ST_ACT_IDLE`**: Reposo. LED apagado, barrera abajo.
-* **`ST_ACT_MOVING`**: Transitorio. LED encendido, la barrera se está moviendo.
+* **`ST_ACT_OPENING`**: Transitorio. LED encendido, la barrera se está abriendo.
+* **`ST_ACT_UP`**: Barrera completamente abierta. LED encendido.
+* **`ST_ACT_CLOSING`**: Transitorio. LED encendido, la barrera se está cerrando.
 
 ## 3. Eventos
 * **`EV_ACT_OPEN`**: Evento desde el Sistema: "Abrí la barrera".
