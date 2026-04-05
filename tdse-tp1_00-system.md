@@ -3,7 +3,7 @@
 **-Período de escrutinio:** 1 ms
 ***************************************************************************************************************************************************************************************************************************
 ## 1. Descripción del Modelo
-Procesa las señales recibidas del sensor y envía señales de orden al actuador. En los estados de transición, en los que la barrera está en movimiento, espera un feedback por parte del actuador para pasar al siguiente estado(abierto/cerrado.)
+Procesa las señales recibidas del sensor y envía señales de orden al actuador. En los estados de transición, en los que la barrera está en movimiento, espera un feedback por parte del actuador para pasar al siguiente estado (abierto/cerrado.)
 
 ***************************************************************************************************************************************************************************************************************************
 ## 2. Estados
