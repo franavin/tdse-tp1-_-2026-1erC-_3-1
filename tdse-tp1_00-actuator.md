@@ -6,13 +6,13 @@
 
 ***************************************************************************************************************************************************************************************************************************
 ## 2. Estados
-* **`ST_ACT_IDLE`**: 
-* **`ST_ACT_MOVING`**:
+* **`ST_ACT_IDLE`**: Reposo. LED apagado, barrera abajo.
+* **`ST_ACT_MOVING`**: Transitorio. LED encendido, la barrera se está moviendo.
 
 ## 3. Eventos
-* **`EV_ACT_OPEN`**:
-* **`EV_ACT_CLOSE`**:
-* **`EV_SYS_READY`**:
+* **`EV_ACT_OPEN`**: Evento desde el Sistema: "Abrí la barrera".
+* **`EV_ACT_CLOSE`**: Evento desde el Sistema: "Cerrá la barrera".
+* **`EV_SYS_READY`**: Feedback: Señal enviada al Sistema al terminar el movimiento.
 
 ## 4. Variables de Control
 * **`tick`**: Variable temporizadora de cuenta regresiva.
@@ -23,8 +23,8 @@
 ### Acciones Internas
 * **`tick = DEL_BTN_BARRERA_MAX`**: Inicializa la variable de control.
 * **`tick--`**: Decrementa la variable de control.
-* **`LED_ON`**:
-* **`LED_OFF`**:  
+* **`LED_ON`**: Prende LED.
+* **`LED_OFF`**: Apaga LED.
 
 ### Acciones Externas
 
