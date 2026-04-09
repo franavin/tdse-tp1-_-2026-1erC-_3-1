@@ -3,18 +3,18 @@
 **-Período de escrutinio:** 1 ms
 ***************************************************************************************************************************************************************************************************************************
 ## 1. Descripción del Modelo
-LED que se prende al recibir una petición del sistema para abrir la barrera, la cual se mantiene prendida hasta que la barrera vuelva al estado de reposo inicial. Una vez abierta la barrera en su totalidad, espera una petición del sistema para cerrarla. Cada vez que se termina de mover la barrera (abrir/cerrar), envía un evento al sistema avisando que terminó la acción.
+LED que se prende al recibir una petición del sistema para abrir la barrera, la cual se mantiene prendida hasta que la barrera vuelva al estado de reposo inicial. Una vez abierta la barrera en su totalidad, espera una petición del sistema para cerrarla. Cada vez que se termina de mover la barrera (abrir/cerrar), envía un evento al sistema avisando que terminó la acción. 
 ***************************************************************************************************************************************************************************************************************************
 ## 2. Estados
 * **`ST_ACT_IDLE`**: Reposo. LED apagado, barrera abajo.
-* **`ST_ACT_OPENING`**: Transitorio. LED encendido, la barrera se está abriendo.
+* **`ST_ACT_OPENING`**: Transitorio. LED está apagado y comienza a titilar, la barrera se está abriendo.
 * **`ST_ACT_UP`**: Barrera completamente abierta. LED encendido.
-* **`ST_ACT_CLOSING`**: Transitorio. LED encendido, la barrera se está cerrando.
+* **`ST_ACT_CLOSING`**: Transitorio. LED está encendido y comienza a titilar, la barrera se está cerrando.
 
 ## 3. Eventos
 * **`EV_ACT_OPEN`**: Evento desde el Sistema: "Abrí la barrera".
 * **`EV_ACT_CLOSE`**: Evento desde el Sistema: "Cerrá la barrera".
-* **`EV_SYS_READY`**: Feedback: Señal enviada al Sistema al terminar el movimiento.
+* **`EV_SYS_READY`**: Feedback: Señal enviada al Sistema al terminar el movimiento, en este caso se utiliza para que el LED comience a titilar o deje de hacerlo.
 
 ## 4. Variables de Control
 * **`tick`**: Variable temporizadora de cuenta regresiva.
